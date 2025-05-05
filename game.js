@@ -5,9 +5,10 @@ let compChoice;
 
 function computer_choose() {
     let numChoice = Math.floor(Math.random() * 3);
+    console.log(numChoice);
     if (numChoice == 0) {
         return "Paper";
-    } else if(numCHoice == 1) {
+    } else if(numChoice == 1) {
         return "Scissors";
     } else {
         return "Rock"
@@ -30,4 +31,4 @@ function user_choose(){
 }
 
 
-
+console.log(computer_choose());

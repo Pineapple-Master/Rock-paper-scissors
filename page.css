@@ -1,0 +1,11 @@
+body {
+    background-image: url(bg_img.jpg);
+}
+
+h1{
+    font-family: "Comic Sans MS";
+    font-size: 3rem;
+    text-align: center;
+    color: navy;
+
+}
