@@ -1,0 +1,84 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg_img.jpg);
+    
+   
+}
+
+.container {
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+h2{
+    margin: 0;
+    padding: .5rem;
+}
+
+
+.scoreboard-container{
+    width: 110px;
+    height: fit-content;
+    font-family: "Comic Sans MS";
+    border: 4px solid gray;
+    border-radius: 9px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-self: flex-start;
+    margin: 2rem;
+
+
+
+}
+.scoreboard-row{
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border-top: 4px solid red;
+}
+.scoreboard-col{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    padding: .3rem;
+  
+
+    
+    
+}
+
+
+
+
+.image-row{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex:5rem;
+    
+}
+img{
+    max-width: 10rem;
+    max-height: 10rem;
+}
+img:hover{
+    filter: brightness(70%);
+}
+
+
+
+
+
+
+
